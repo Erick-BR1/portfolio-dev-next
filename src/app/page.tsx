@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Navegacao from "@/app/sections/navegacao";
 import Homepage from "@/app/sections/homepage";
 import GlowCursor from "@/app/components/glowCursor";
