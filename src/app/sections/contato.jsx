@@ -37,7 +37,7 @@ export default function Contato() {
     }, []);
 
     return (
-        <div className="max-h-full max-w-full bg-slate-800">
+        <div className=" bg-slate-800">
             <footer className=" text-white">
                 <section>
                     <ul className="flex h-[191px] justify-evenly items-center">

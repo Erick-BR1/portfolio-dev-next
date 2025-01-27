@@ -2,13 +2,13 @@ export default function Expertise() {
     return (
         <div>
             <article>
-                <div className="">
+                <div>
                     <p className="text-white/70 font-goldman font-bold text-lg text-center pb-[43px]">Expertise</p>
                 </div>
                 <section className="flex justify-evenly flex-wrap">
-                    <div className=" pb-6">
+                    <div className="pb-6">
                         <p className="text-white text-center font-bold text-base font-goldman pb-[43px]">Front-End</p>
-                        <div className=" w-[420px] h-[522px] bg-slate-900 shadow-custom p-6 rounded-lg">
+                        <div className=" w-[420px] h-[522px] bg-slate-900 shadow-custom p-6 rounded-lg sm:max-w-sm">
                             <div className="grid grid-cols-2 pt-[70px] place-items-center">
                                 <div className="w-20 h-32 hover:scale-110 duration-300">
                                     <svg viewBox="0 0 128 128">
@@ -45,7 +45,7 @@ export default function Expertise() {
                     </div>
                     <div>
                         <p className="text-white  font-bold text-base text-center font-goldman pb-[43px]">Back-End</p>
-                        <div className="w-[420px] h-[522px]  bg-slate-900 shadow-custom p-6 rounded-lg">
+                        <div className="w-[420px] h-[522px]  bg-slate-900 shadow-custom p-6 rounded-lg sm:max-w-sm">
                             <div className="grid grid-cols-2 pt-[70px] place-items-center">
                                 <div className="w-20 h-32 hover:scale-110 duration-300">                      
                                     <svg viewBox="0 0 128 128">

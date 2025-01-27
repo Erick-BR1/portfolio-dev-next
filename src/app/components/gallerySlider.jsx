@@ -36,7 +36,7 @@ function GallerySlider() {
   };
 
   return (
-    <div className="max-w-md w-full mx-auto py-5 px-4">
+    <div className="max-w-md w-full mx-auto py-5 px-4 sm:max-w-sm">
       <div className="bg-gray-200 rounded-2xl overflow-hidden shadow-md">
         <Image
           src={slides[currentIndex].img}
@@ -54,13 +54,13 @@ function GallerySlider() {
       <div className="flex justify-between items-center mt-4">
         <button
           onClick={handlePrev}
-          className="bg-slate-800 font-inter text-white px-4 py-2 rounded-full shadow-md hover:bg-slate-700"
+          className="bg-slate-800 font-inter text-white px-4 py-2 rounded-full shadow-md hover:bg-slate-700 sm:text-sm"
         >
           Prev
         </button>
         <button
           onClick={handleNext}
-          className="bg-slate-800 font-inter text-white px-4 py-2 rounded-full shadow-md hover:bg-slate-700"
+          className="bg-slate-800 font-inter text-white px-4 py-2 rounded-full shadow-md hover:bg-slate-700  sm:text-sm"
         >
           Next
         </button>

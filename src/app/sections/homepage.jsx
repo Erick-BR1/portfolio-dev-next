@@ -2,7 +2,7 @@ import '../globals.css';
 
 export default function Homepage() {
     return (
-        <div className="pt-28 flex flex-col items-center w-screen h-screen">
+        <div className="pt-28 flex flex-col items-center h-screen">
             <div className="flex flex-col items-center">
                 <h1 className="pt-28 text-gray-200/100 font-inter text-lg">Olá, sou o Erick Rodrigues</h1>
                 <h3 className="pb-[118px] font-inter text-gray-200/100 text-lg">Front End & Back End Developer</h3>
@@ -12,7 +12,7 @@ export default function Homepage() {
                         <p className='font-goldman font-bold text-gray-200/100 text-lg'>Disponível para projetos</p>
                     </div>
                 </div>
-                <div className="text-center pt-[118px]">
+                <div className="text-center pt-[118px] sm:sm:max-w-sm">
                     <span>
                         <p className='font-inter text-base text-gray-100/70'>Estudante de Análise e Desenvolvimento de Sistemas. Entusiasta de tecnologia e curiosos nato!</p>
                     </span>

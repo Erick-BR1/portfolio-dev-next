@@ -11,7 +11,9 @@ export default function Certificados() {
         </div>
         <section className="flex justify-evenly flex-wrap gap-4 gap-y-16 pb-[70px]">
           <div className="relative min-w-max duration-300 rounded-lg rounded-bl-2xl shadow-lg shadow-white/50 hover:scale-105">
-            <GallerySlider />
+            <div className="sm:">
+              <GallerySlider />
+            </div>
           </div>
         </section>
       </article>
